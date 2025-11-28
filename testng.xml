@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Rest Assured learning ATB 13x">
+    <test verbose="2" preserve-order="true" name="C:/Users/Manish.Patel/IdeaProjects/ATB13xAPI_AutomationPrograms">
+        <classes>
+<!--            <class name="com.ansibytecode.Sample.TestNg_AllureReport.APITesting_Lab06_TestCaseReport">-->
+<!--                <methods>-->
+<!--                    <include name="test_tc1_pincode_valid"/>-->
+<!--                    <include name="test_tc2_pincode_invalid_special_char"/>-->
+<!--                    <include name="test_tc3_pincode_invalid_blank"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="ex_03_TestNG_AllureReport.APITesting_Lab06_TestCase">
+                <methods>
+                    <include name="TC01_pincode_valid"/>
+                    <include name="TC02_pincode_invalid"/>
+                    <include name="TC03_pincode_invalid"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
